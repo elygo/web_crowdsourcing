@@ -1,0 +1,305 @@
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+.container-fluid {
+        font-family: Ubuntu;
+        font-size: 28px;
+        text-align: center;
+        background-color:#ffffff;
+        color:#2C97FF;
+        height:100px;
+
+        }
+
+.image {float: left;
+        height:85px;
+        width:85px;
+        margin: 5px}
+
+.nav {
+    font-family: Ubuntu;
+    font-size: 20px;
+
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul#smallnav {
+	list-style:none;
+	padding: 0;
+	margin: 0 0 10px 0;
+
+}
+
+ul#smallnav li{
+	display: inline;
+	margin-right:10px;
+}
+
+#admincontent {
+	 font-family: Ubuntu;
+	 text-align: center;
+	 font-size: 16px;
+
+}
+
+
+
+
+html,body
+.wrapper{
+
+  height:100%;
+}
+body {
+padding-right:0px !important;
+margin-right:0px !important;
+}
+
+.container {
+        box-sizing: border-box;
+        min-height: 100%;
+
+        padding-bottom: 70px;
+         font-family: Ubuntu;
+        text-align: center;
+        }
+
+.footer {
+
+  font-family: Ubuntu;
+  font-size: 18px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  border-top: 1px solid #c0c6d1;
+  text-align: center;
+  height: 60px;
+ /* margin-top: -60px;
+        */
+}
+
+.buttons {
+        position: absolute;
+		right: 0;
+        bottom: 0;
+		z-Index:100;
+		margin:0px 10px 10px 20px;
+		padding: 8px 10px 10px 10px;
+		border: 1px solid #8d9096;
+		background-color: #fff;
+        border-radius: 5px;
+        height:52px;
+		font-family: ubuntu;
+
+
+}
+
+.button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 13px 5px 13px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.modal-content {font: 18px ubuntu      }
+      input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+
+      #login {
+          background-color: #3671c9;
+          color:white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+      }
+      #login:hover {opacity:0.8}
+
+      #signup {
+          background-color: #3671c9;
+          color:white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+      }
+      #signup:hover {opacity:0.8}
+      .psw{float:right;}
+
+
+
+#map{ height: 600px;
+	  width:100%;
+	border: solid 1px #8d9096;
+	text-align:center;
+	border-radius: 5px;
+
+	  }
+
+
+.slider {position: absolute;
+    bottom: 0;
+	left: 0;
+	width:150px;
+	z-Index:100;
+	background-color:#fff;
+	margin:10px 10px 10px 10px;
+	padding: 5px 5px 0px 5px;
+	border: 1px solid #8d9096;
+	border-radius: 5px;
+
+	}
+
+#onoff {position: absolute;
+    top: 0;
+	right: 50px;
+	width:120px;
+	z-Index:100;
+	background-color:#fff;
+	margin:10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #8d9096;
+	border-radius: 5px;
+	font-family: ubuntu;
+}
+
+#help {
+	position: absolute;
+    top: 0;
+	right: 0;
+	width:50px;
+	z-Index:100;
+	background-color:#fff;
+	margin:10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #8d9096;
+	border-radius: 5px;
+	font-family: ubuntu;
+}
+
+
+.icon-stack {
+  position: relative;
+  display: inline-block;
+	padding-right:15px;
+  }
+.icon-stack-1x{
+  position: absolute;
+	top:-8px;
+  width: 100%;
+
+}
+.icon-stack-2x {
+  position: absolute;
+  bottom:4px;
+  width: 100%;
+
+}
+
+.icon-stack-3x{
+  position: absolute;
+	top:-8px;
+  width: 100%;
+
+}
+.icon-stack-4x {
+  position: absolute;
+  bottom:4px;
+  width: 100%;
+
+
+}
+
+.skewxplusr {
+	position: absolute;
+  bottom:-8px;
+	left:-4px;
+
+
+}
+
+.skewxplusl {
+	position: absolute;
+  top:-18px;
+	right: -4px;
+
+}
+
+.skewxminusr{
+position: absolute;
+ top:-18px;
+	left:-4px;
+
+}
+
+.skewxminusl{
+position: absolute;
+ bottom:-8px;
+	right:-4px;
+
+}
+#subject{
+    width: 100%;
+	height:200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+th, tr {width: 200px;}
+#table {
+			border: 1px solid grey;}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
