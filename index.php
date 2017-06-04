@@ -33,7 +33,7 @@
 			<li><a href="about.php">About</a></li>
 			<li><a href="others.php">Others</a></li>
 			<li><a href="#">Contact</a></li>
-			  <?php if (empty($_SESSION['username'])) {   } elseif($_SESSION['username']=='Elyor Farmonov') { ?>
+			  <?php if (empty($_SESSION['username'])) {   } elseif($_SESSION['username']=='admin') { ?>
 			  <li><a href="main.php">Main</a></li> 
 			   <li><a href="admin.php"><font color="red">Admin</font></a></li>
 			  <?php } else {?>
